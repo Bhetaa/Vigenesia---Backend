@@ -10,6 +10,14 @@
 
 API List Sementara : <br/> <br/>
 
+GET : /api/Get_motivasi  -> Untuk Mengambil List disaat Motivasi <br/>
+POST : /api/Get_motivasi -> Untuk Motivasi baru, Jika sudah nanti masuk ke /api/Get_motivasi <br/>
+PUT : /api/Get_motivasi -> Untuk Motivasi yang sudah bisa di edit/put <br/>
+PUT : /api/Get_motivasi -> Untuk Menghapus Motivasi berdasarkan id / motivasi yang ada dilist 
+
+
 GET : /api/user  -> Untuk Mengambil List disaat Login <br/>
-POST : /api/registrasi -> Untuk User baru yang Registrasi, Jika sudah nanti masuk ke /api/user <br/>
-POST : /api/login -> Untuk Login User yang sudah registrasi
+POST : /api/user -> Untuk User baru yang Registrasi, Jika sudah nanti masuk ke /api/user <br/>
+PUT : /api/user -> Untuk Login User yang sudah registrasi <br/>
+DELETE : /api/user -> Untuk Menghapus User yang sudah login/registrasi 
+
